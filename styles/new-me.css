@@ -125,12 +125,12 @@
     margin: 0 auto;
 }
 
-.plan-text,
-h2 {
+.plan-text,h2 {
     margin-top: 80px;
     text-align: center;
     font-weight: 700;
     font-size: 40px;
+    
 }
 
 .plan-item {
@@ -178,7 +178,7 @@ h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #FFFFFF;
+    color: black;
 
 }
 
