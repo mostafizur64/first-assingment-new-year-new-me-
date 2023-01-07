@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.banner{
+    background: url('../images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;  
+    
+}
+.banner-container{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.banner-text{
+    
+    text-align: right;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.banner-item {
+    text-align: right;
+    /* padding: 216px 230px 364px 845px; */
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.contact-btn {
+    margin-top: 32px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* main */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Failures section */
+
+.My-failures {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.failures-photo {
+    max-width: 569px;
+    height: 723.3px;
+}
+
+.failures-item h1 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.failures-item p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+
+}
+
+.failures-rules {
+    list-style: none;
+
+}
+
+.failures-item ul{
+    padding: 0;
+}
+.failures-rules,li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    
+  
+
+}
+
+.fa-check {
+    margin-right: 10px;
+    color: #16D887
+}
+
+/* my plan */
+.my-plan {
+    display: flex;
+    gap: 86px;
+    margin: 0 auto;
+}
+
+.plan-text,
+h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-item {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.plan-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.plan-item p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+
+}
+
+/* keep-positon-item */
+.keep-positon {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.position-item {
+    float: left;
+    padding-left: 60px;
+}
+
+.plan-item,
+h2 {
+
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+
+}
+
+.call-now {
+    margin-top: 24px;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.footer-container {
+  
+}
+
+/* footer */
+.footer {
+    display: flex;
+    margin-top: 120px;
+    background-color: #151414;
+     height: 577px;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+
+}
+
+.footer-item-right h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    width: 148px;
+    height: 53px;
+    /* margin-top: 160px; */
+    margin-bottom: 16px;
+}
+
+.footer-r-dec {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.footer-r-email {
+    color: #FFFFFF;
+    margin-top: 300px 0;
+}
+
+.fooer-r-phone {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.social-icon a {
+    display: flex;
+    gap: 20px;
+}
+
+/* footer-item-right */
+.footer-item-right h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+
+
+
+}
+
+.footer-item-right input[type='email'] {
+    width: 275px;
+    height: 12px;
+    background: #151414;
+    padding: 18px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.footer-btn {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
